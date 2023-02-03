@@ -26,11 +26,11 @@ class App extends React.Component {
     }
     render() {
         return (
-          <div className="app">
-            <div className="card">
-              <h1 className="heading">{this.state.advice}</h1>
+          <div className="adviceapp">
+            <div className="box">
+              <h1 className="realadv">{this.state.advice}</h1>
               <button className="button" onClick={this.fetchAdvice}>
-                <span>GIVE ME ADVICE!</span>
+                <span>Only The Wise Ask For Advice</span>
               </button>
             </div>
           </div>
